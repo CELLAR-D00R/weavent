@@ -1,0 +1,16 @@
+.masonry-item {
+    background-color: #BFD630;
+}
+.plenieres {
+    background-color: #BFD630;
+    color: #fff;
+}
+.more-content-text a {
+    color: #fff;
+    text-decoration: underline;
+    visibility: hidden;
+}
+.slider .indicators .indicator-item {
+    background-color: #FDD21F;
+    border: 2px solid #FDD21F;
+}

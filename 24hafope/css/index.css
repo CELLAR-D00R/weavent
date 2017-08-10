@@ -1,0 +1,210 @@
+* {
+    z-index: 1;
+}
+
+.multi_comp .image > img {
+    height: auto !important;
+    top: 20px !important;
+}
+
+.numerique .image > img {
+    height: auto !important;
+}
+
+.dechets .image > img {
+    height: auto !important;
+}
+
+.sliderSmall .indicators {
+    top: 225px;
+}
+
+.programme_pdf a > div {
+    height: 100%;
+}
+    .programme_pdf .image > img {
+        height: auto !important;
+        position: relative !important;
+    }
+        @media only screen and (min-width : 1200px) {
+            .programme_pdf .image > img {
+                height: 247px !important;
+                left: -15px;
+
+            }
+        }
+
+.lieu img {
+    height: 248px !important;
+}
+
+/******************************************* POPUP IMAGE LIEU *********************************************/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 65.6%;
+    max-width: 830px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+        .popup .close:hover {
+          color: #002D4B;
+        }
+    .popup .content {
+      max-height: 30%;
+      overflow: auto;
+    }
+        .popup .content img {
+          width: 100%;
+        }
+
+
+
+/******************************************* PUCES DE SLIDERS *********************************************/
+.slider .indicators .indicator-item {
+    background-color: #F4EB47;
+    border: 2px solid #F4EB47;
+}
+    .slider .indicators .indicator-item.active {
+        background-color: #E6EBF0 !important
+    }
+
+.m1r1c .diaporama img {
+    position: relative;
+    top: 25px;
+}
+    .m1r1c .slider .indicators .indicator-item {
+        display: none;
+    }
+
+/******************************************* SURVOL DES BLOCS THEMES ****************************************/
+.energie {
+    background-color: #BFD630;
+}
+.energie img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    .energie:hover .image > img {
+        opacity: 0.7;
+    }
+
+.eau {
+    background-color: #00B8CE;
+}
+.eau img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    .eau:hover .image > img {
+        opacity: 0.7;
+    }
+
+.multi_comp {
+    background-color: #6EACDE;
+}
+.multi_comp img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    .multi_comp:hover .image > img {
+        opacity: 0.5;
+    }
+
+.numerique {
+    background-color: #8A73B3;
+}
+.numerique img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    .numerique:hover .image > img {
+        opacity: 0.5;
+    }
+
+.dechets {
+    background-color: #DDB108;
+}
+.dechets img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    .dechets:hover .image > img {
+        opacity: 0.7;
+    }
+
+.programme_pdf {
+    background-color: #002D4B;
+}
+.programme_pdf img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    .programme_pdf:hover .image > img {
+        opacity: 0.7;
+    }
+
+/***************************************** AJOUT DE LA FLECHE AU SURVOL *********************************************/
+.energie .fleche_survol, .eau .fleche_survol, .multi_comp .fleche_survol, .numerique .fleche_survol, .dechets .fleche_survol, .programme_pdf .fleche_survol {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    opacity: 0;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    .energie .fleche_survol img, .eau .fleche_survol img, .multi_comp .fleche_survol img, .numerique .fleche_survol img, .dechets .fleche_survol img, .programme_pdf .fleche_survol img {
+        width: 50px;
+    }
+
+.energie:hover .fleche_survol, .eau:hover .fleche_survol, .multi_comp:hover .fleche_survol, .numerique:hover .fleche_survol, .dechets:hover .fleche_survol, .programme_pdf:hover .fleche_survol {
+    opacity: 1;
+}
+
+@media only screen and (max-width : 1200px) {
+    .energie .fleche_survol, .eau .fleche_survol, .multi_comp .fleche_survol, .numerique .fleche_survol, .dechets .fleche_survol, .programme_pdf .fleche_survol {
+        z-index: 10;
+        left: 165px;
+        top: 130px;
+    }
+}
+@media only screen and (max-width : 800px) {
+    .energie .fleche_survol, .eau .fleche_survol, .multi_comp .fleche_survol, .numerique .fleche_survol, .dechets .fleche_survol, .programme_pdf .fleche_survol {
+        left: 107px;
+        top: 120px;
+    }
+}

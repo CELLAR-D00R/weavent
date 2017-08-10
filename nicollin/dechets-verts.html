@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="fr">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/averti-web-main.css">
+    <link rel="stylesheet" href="css/elusive-icons.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/weavent.css">
+    <link rel="stylesheet" href="css/averti.css">
+    <link rel="stylesheet" href="css/pagesinternes.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="fonts/fontello/css/fontello.css">
+    <?php require('config.php'); ?>
+
+    <script src="js/Chart.js"></script>
+    <script src="js/Chart.bundle.js"></script>
+    <script src="js/Chart.bundle.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>déchets-tri-lens-lievin-déchets-verts</title>
+</head>
+
+<body>
+    <header class="top-nav">
+        <nav class="top-nav top-nav-container">
+            <div class="nav-wrapper">
+                <a class="page-title" href="index.html"><img class="logo-image" src="img-trie/logo-trie.png"></a>
+                <a class="page-title" href="http://www.agglo-lenslievin.fr/"><img class="logo-2" src="img-trie/logo-agglo.png" alt="lien vers le site de l'agglomération lens liévin"></a>
+                <a class="page-title" href="http://nicollin-nord.com/"><img class="logo-3" src="img-trie/logo-nicollin.png" alt="lien vers le site de l'agence nicollin"></a>
+                <a href="#" class="header__icon" id="header__icon"></a>
+                <div class="menu">
+                    <ul>
+                        <a href="index.html">
+                            <li class="btn">particulier</li>
+                        </a>
+                        <a href="professionnel.html">
+                            <li class="btn jaune">professionnel</li>
+                        </a>
+                        <a href="tri-selectif.html">
+                            <li class="btn rouge">tri selectif</li>
+                        </a>
+                        <a href="decheteries.html">
+                            <li class="btn vertclair 3">déchèteries</li>
+                        </a>
+                        <a href="http://www.agglo-lenslievin.fr" target="_blank">
+                            <li class="btn bleuciel 4">l'agglo</li>
+                        </a>
+                        <a href="nicollin.html">
+                            <li class="btn jaune">Nicollin</li>
+                        </a>
+                        <a href="contact.html">
+                            <li class="btn vertfonce">Contact</li>
+                        </a>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <section class="masonry-container">
+            <div class="masonry">
+                <div class="article-interne dechets-verts">
+                    <div class="title-area-interne">
+                        <h2 class="title">
+LA COLLECTE DES D&Eacute;CHETS VERTS </h2>
+                    </div>
+                    <div class="colonnes">
+                        <h3>Changement de rythme de collecte de vos déchets verts</h3>
+                        <p>La collecte des déchets végétaux (tontes de pelouse, tailles de haies, branchages ...) est actuellement assurée sur l’ensemble des communes de la Communauté d’agglomération, 1 fois par semaine. </p>
+                        <p>Désormais, <u>pour les mois d’octobre et novembre, la collecte se fera 1 fois tous les 15 jours</u>, la fréquence de collecte d’<u>une fois par semaine</u> restant inchangée pour la période <u>d’avril à septembre</u>.
+                        </p>
+
+                        <p>
+                            <a class="page-title" href="http://agglo-lenslievin.maps.arcgis.com/apps/webappviewer/index.html?id=c7179fabcc9c41e2947b9f4bb99af8dc" target="_blank">Pour connaître le jour de collecte des déchets verts dans votre commune : <b>cliquez ici</b></a>
+                            <ul>
+                                <h3> Comment présenter les déchets verts sur le trottoir :</h3>
+                                <b><li> • Verdures </b>(tontes de pelouse, tailles de haies, feuilles mortes, …) dans un contenant rigide ou en sacs. Ces derniers, une fois vidés, seront déposés à l’intérieur du contenant.</li>
+                                <li> <b>• Petits branchages : maximum 1m20 de long et 10 cm de diamètre,</b> fagotés avec une ficelle.</li>
+                            </ul>
+                        </p>
+                        <p>
+                            <span class="attention">Attention : Maximum 1m<sup>3</sup> accepté par collecte. Cela correspond à 10 sacs de déchets verts de 100 L maximum ou 1m<sup>3</sup> de branchages.
+                              </span>
+
+                            <p>
+                                <b>Au-delà et en dehors des jours de collecte, allez en déchèterie.</b> <br>
+                                <a class="page-title" href="decheteries.html">
+    Pour trouver l’adresse de la déchèterie la plus proche: cliquez ici</a>
+                            </p>
+                            <img class="verts" src="img-trie/verts.png" alt="les dechets verts" width="500px" height="auto" />
+
+                            <h3>Quel devenir pour les déchets verts ?</h3>
+                            <p>Collectés dans le respect du rythme des saisons ou apportés par les particuliers à la déchèterie, les déchets végétaux (tontes de pelouse, tailles de haie, branchages…) sont ensuite compostés avant de revenir à la terre grâce
+                                à leur utilisation en agriculture.</p>
+                            <p>Des questions sur les déchets verts ? Un guide de rappel sera dès septembre dans votre boite aux lettres.</p>
+                            <br>
+                            <ul>Pour toute information complémentaire vous pouvez :
+                                <li>• consulter la FAQ dédiée, espace où figurent nombre d’informations et de renseignements utiles, <a href="FAQ.php"><b>cliquez ici</b></a>.</li>
+                                <li>• nous poser une question en remplissant le formulaire <a href="http://nicollin-nord.com/nicollin-nous-contacter.php" target="_blank"><b>accessible ici</b></a></li>
+                                <li>• composer le n° vert gratuit :
+                                </li>
+                            </ul>
+                            <img width="50%;" src="img-trie/num-vert_nicollin.png" alt="le numero vert de nicollin" />
+                        </p>
+                        <img class="verts" src="img-trie/dechets-verts-2.png" alt="les dechets verts" width="450px" height="auto" />
+                    </div>
+
+                    <div class="plus-loin">
+                        <div class="colonnes">
+                            <h3>Pour aller plus loin</h3>
+                            <h4>Le compostage, je m’y mets !</h4>
+                            <p>Processus naturel de décomposition, le compostage consiste à mélanger des déchets organiques de la maison, de la cuisine et du jardin qui, sous l’action de micro-organismes, se transforment en un compost bénéfique pour votre
+                                jardin, vos plantes potagères et intérieures.</p>
+                            <p>
+                                <ul><b>Le compostage, c’est possible partout !</b><br><br>
+                                    <li>- En maison individuelle, dans un composteur ou en tas dans votre jardin
+                                    </li>
+                                    <li>- En appartement, dans une boîte spéciale, grâce au lombricompostage</li>
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    <b>Que peut-on composter ?</b>
+                                    <br><br>
+                                    <li> - Les déchets de cuisine : épluchures de légumes et de fruits ; filtres et marc de café, de thé ; petits restes de repas (riz, pâtes, croutes de fromage) ; Pain, coquilles d’œuf, etc.
+                                    </li>
+                                    <li>- Les déchets de maison : mouchoirs en papier et essuie-tout, cendres de bois, sciures et copeaux de bois, papier journal, cartons bruns découpés en morceaux, etc.
+                                    </li>
+                                    <li>- Les déchets du jardin : plantes et fleurs fanées, feuilles, tontes de gazon, mauvaises herbes, etc.</li>
+                                </ul>
+                            </p>
+                            <img class="verts" src="img-trie/composte.png" alt="le composte" width="250px" height="auto" />
+                            <p>
+                                <ul>
+                                    <b>Les trois ingrédients d’un compost réussi</b><br>
+                                    <br>
+                                    <li>- Bien mélanger les déchets carbonés (ex : feuilles, branches, cartons) et les déchets azotés (déchets de cuisine, tontes de gazon), les déchets humides (déchets de cuisine, tontes de gazon) et secs (paille, papiers,
+                                        sciures, etc.) les déchets grossiers et fins.
+                                    </li>
+                                    <li>- Aérer les matières, notamment par un brassage régulier au début du compostage, puis tous les 1 à 2 mois
+                                    </li>
+                                    <li>- Humidifier le compost, qui doit être comme une éponge pressée, mais sans excès. Arrosez le compost s’il est trop sec. S’il est trop humide, étalez-le quelques heures au soleil ou mélangez-le avec de la terre sèche</li>
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    <b>Comment utiliser mon compost ?</b><br>
+                                </ul>
+                                <li>Avant maturité <br> En paillage sur la terre, au pied des arbres ou sur des cultures déjà avancées. Attendez quelques semaines pour l’incorporer au sol, pour ne pas nuire aux jeunes plants.
+                                </li>
+                                <li>A maturité<br> Comme amendement organique incorporé à la terre puis comme terre de rempotage</li>
+                            </p>
+                            (Source ADEME)
+                        </div>
+                    </div>
+                    <div>
+                        <a href="index.html" class="btn lire">Retour à la page d'accueil</a>
+                    </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.calendario.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.masonry').masonry({
+                // set itemSelector so .grid-sizer is not used in layout
+                itemSelector: '.masonry-item',
+                // use element for option
+                columnWidth: '.masonry-sizer',
+                percentPosition: true,
+                gutter: '.gutter-sizer'
+            });
+            $('.sliderSmall').slider({
+                full_width: true,
+                height: 248,
+                indicators: false
+            });
+            $('.sliderBig').slider({
+                full_width: true,
+                height: 508
+            });
+            $('.arrow-left').click(function() {
+                $('.sliderSmall').slider('prev');
+            });
+            $('.arrow-right').click(function() {
+                $('.sliderSmall').slider('next');
+            });
+        });
+    </script>
+
+    <!-- CHANGEMENT TEXTE CALENDRIER -->
+    <script>
+        $(document).ready(function() {
+            $(".texte_date").hide();
+            $(".texte_20").show();
+        });
+        $(".fc-event a").click(function(evt) {
+
+            evt.preventDefault(); // prevents browser's default anchor behavior
+
+            var id = $(this).attr("href");
+            $(".texte_date").hide();
+            $(id).show();
+        });
+    </script>
+    <!-- FIN CHANGEMENT TEXTE CALENDRIER -->
+
+    <!-- SONDAGE -->
+    <script>
+        var ctx = document.getElementById("resultats");
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Opt 1", "Opt 2", "Opt 3"],
+                datasets: [{
+                    label: '# of Votes',
+                    backgroundColor: "rgba(51,51,51,1)",
+                    borderColor: "rgba(51,51,51,1)",
+                    borderWidth: 1,
+                    hoverBackgroundColor: "rgba(0,0,0,1)",
+                    hoverBorderColor: "rgba(0,0,0,1)",
+                    data: [12, 19, 3]
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+    <script>
+        $(function($) {
+            var getVoteResults = function() {
+                $.get("vote_results.php", function(data, status) {
+                    var parsedData = JSON.parse(data);
+                    var resultData = [parsedData[0].yes, parsedData[0].no, parsedData[0].noanswer];
+                    var ctx = document.getElementById("resultatsBloc");
+                    var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: ["yes", "no", "no answer"],
+                            datasets: [{
+                                label: '# of Votes',
+                                backgroundColor: "rgba(51,51,51,1)",
+                                borderColor: "rgba(51,51,51,1)",
+                                borderWidth: 1,
+                                hoverBackgroundColor: "rgba(0,0,0,1)",
+                                hoverBorderColor: "rgba(0,0,0,1)",
+                                data: resultData
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero: true
+                                    }
+                                }]
+                            }
+                        }
+                    });
+                    $('#vote-area').toggle();
+                });
+            }
+            $(".vote-options a").click(function() {
+                var id = $(this).parent("div").attr("id");
+                var type = $(this).attr("id");
+                $.post("vote.php", {
+                    id: id,
+                    type: type
+                }, function(answer) {
+                    console.log(id);
+                    console.log(type);
+                    getVoteResults();
+                });
+
+            });
+        });
+    </script>
+    <!-- FIN SONDAGE -->
+
+    <!-- Social media - Share buttons -->
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Twitter -->
+    <script>
+        ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'twitter-wjs');
+    </script>
+
+    <!-- Share button LinkedIn - Blogger Config. Ref.: http://goo.gl/tC65tg -->
+    <script src='//platform.linkedin.com/in.js' type='text/javascript'>
+        lang: fr_FR
+    </script>
+
+    <!-- -ENCART LIVE -->
+    <script>
+        function init() {
+            var cusid_ele = document.getElementsByClassName('live-canvas');
+            for (var i = 0; i < cusid_ele.length; ++i) {
+                var canvas = cusid_ele[i];
+                if (canvas.getContext) {
+                    var ctx = canvas.getContext("2d");
+                    // Draw triangle
+                    ctx.fillStyle = "#FABE00";
+                    ctx.beginPath();
+                    // Draw a triangle location for each corner from x:y 100,110 -> 200,10 -> 300,110 (it will return to first point)
+                    ctx.moveTo(72, 72);
+                    ctx.lineTo(0, 0);
+                    ctx.lineTo(72, 0);
+                    ctx.closePath();
+                    ctx.fill();
+
+                    ctx.rotate(Math.PI / 4);
+                    ctx.font = 'italic 16pt Arial';
+                    ctx.fillStyle = "#000000";
+                    ctx.fillText("Live", 33, -7);
+                }
+            }
+        }
+        onload = init;
+    </script>
+    <!--GOOGLE ANALYTICS-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-83086304-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!------------------------------------------------------------------ SOCIAL MEDIA CUSTOMIZED SHARE BUTTONS ------------------------------------------------------------------------->
+    <script>
+        (function() {
+
+            var popupCenter = function(url, title, width, height) {
+                var popupWidth = width || 640;
+                var popupHeight = height || 320;
+                var windowLeft = window.screenLeft || window.screenX;
+                var windowTop = window.screenTop || window.screenY;
+                var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+                var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+                var popupLeft = windowLeft + windowWidth / 2 - popupWidth / 2;
+                var popupTop = windowTop + windowHeight / 2 - popupHeight / 2;
+                var popup = window.open(url, title, 'scrollbars=yes, width=' + popupWidth + ', height=' + popupHeight + ', top=' + popupTop + ', left=' + popupLeft);
+                popup.focus();
+                return true;
+            };
+
+            document.querySelector('.share_facebook').addEventListener('click', function(e) {
+                e.preventDefault();
+                var url = this.getAttribute('data-url');
+                var shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+                popupCenter(shareUrl, "Partager sur facebook");
+            });
+
+            document.querySelector('.share_twitter').addEventListener('click', function(e) {
+                e.preventDefault();
+                var url = this.getAttribute('data-url');
+                var shareUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.title) +
+                    "&via=agenceaverti" +
+                    "&url=" + encodeURIComponent(url);
+                popupCenter(shareUrl, "Partager sur Twitter");
+            });
+
+            document.querySelector('.share_linkedin').addEventListener('click', function(e) {
+                e.preventDefault();
+                var url = this.getAttribute('data-url');
+                var shareUrl = "https://www.linkedin.com/shareArticle?url=" + encodeURIComponent(url);
+                popupCenter(shareUrl, "Partager sur Linkedin");
+            });
+
+        })();
+    </script>
+    <!------------------------------------------------------------------ MENU BURGER ------------------------------------------------------------------------->
+    <script>
+        (function($) {
+
+            /* Quand je clique sur l'icône hamburger je rajoute une classe au body */
+            $('#header__icon').click(function(e) {
+                e.preventDefault();
+                $('body').toggleClass('with--sidebar');
+            });
+
+            /* Je veux pouvoir masquer le menu si on clique sur le cache */
+            $('#site-cache').click(function(e) {
+                $('body').removeClass('with--sidebar');
+            })
+
+        })(jQuery);
+    </script>
+
+</body>
+
+</html>

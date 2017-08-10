@@ -1,0 +1,186 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CenturyGothic
+FamilyName:Century Gothic
+StyleName:Regular
+MenuName:Century Gothic
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Century Gothic
+WritingScript:Roman
+OutlineFileName:\CenturyGothic
+DataFormat:sfntResource
+ResourceID:12004
+hasSVG:no
+FileLength:262993
+FileModTime:1245142800
+NameArray:0,Mac,4,Century Gothic
+NameArray:0,Win,1,Century Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CenturyGothic-Bold
+FamilyName:Century Gothic
+StyleName:Bold
+MenuName:Century Gothic
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Century Gothic Bold
+WritingScript:Roman
+OutlineFileName:\CenturyGothic
+DataFormat:sfntResource
+ResourceID:12005
+hasSVG:no
+FileLength:262993
+FileModTime:1245142800
+NameArray:0,Mac,4,Century Gothic Bold
+NameArray:0,Win,1,Century Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CenturyGothic-Italic
+FamilyName:Century Gothic
+StyleName:Italic
+MenuName:Century Gothic
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Century Gothic Italic
+WritingScript:Roman
+OutlineFileName:\CenturyGothic
+DataFormat:sfntResource
+ResourceID:12006
+hasSVG:no
+FileLength:262993
+FileModTime:1245142800
+NameArray:0,Mac,4,Century Gothic Italic
+NameArray:0,Win,1,Century Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CenturyGothic-BoldItalic
+FamilyName:Century Gothic
+StyleName:Bold Italic
+MenuName:Century Gothic
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Century Gothic Bold Italic
+WritingScript:Roman
+OutlineFileName:\CenturyGothic
+DataFormat:sfntResource
+ResourceID:12007
+hasSVG:no
+FileLength:262993
+FileModTime:1245142800
+NameArray:0,Mac,4,Century Gothic Bold Italic
+NameArray:0,Win,1,Century Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:CenturyGothic
+OutlineFileName:\CenturyGothic
+ResourceID:2004
+MacStyle:0
+FileLength:262993
+FileModTime:1245142800
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:CenturyGothic-Bold
+OutlineFileName:\CenturyGothic
+ResourceID:2004
+MacStyle:1
+FileLength:262993
+FileModTime:1245142800
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:CenturyGothic-Italic
+OutlineFileName:\CenturyGothic
+ResourceID:2004
+MacStyle:2
+FileLength:262993
+FileModTime:1245142800
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:CenturyGothic-BoldItalic
+OutlineFileName:\CenturyGothic
+ResourceID:2004
+MacStyle:3
+FileLength:262993
+FileModTime:1245142800
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CenturyGothic
+FamilyName:Century Gothic
+StyleName:Regular
+MenuName:Century Gothic
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Century Gothic
+WritingScript:Roman
+OutlineFileName:\gothic.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:137568
+FileModTime:1071370244
+NameArray:0,Mac,4,Century Gothic
+NameArray:0,Win,1,Century Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:218640
+FileModTime:1492680809
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+

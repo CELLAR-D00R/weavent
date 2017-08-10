@@ -1,0 +1,24 @@
+.masonry-item {
+    background-color: #004c7e;
+}
+.plenieres {
+    background-color: #004c7e;
+    color: #fff;
+}
+    .plenieres h3 {
+        font-size: 16px;
+        font-weight: bold;
+        float: right;
+        margin-top: -15px;
+        color: #AFD2EB;
+        text-align: right;
+    }
+.more-content-text a {
+    color: #fff;
+    text-decoration: underline;
+    visibility: hidden;
+}
+.slider .indicators .indicator-item {
+    background-color: #508cc8;
+    border: 2px solid #508cc8;
+}

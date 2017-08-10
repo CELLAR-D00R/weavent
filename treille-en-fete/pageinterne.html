@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="css/elusive-icons.min.css">
+     <link rel="stylesheet" href="css/materialize.min.css">
+     <link rel="stylesheet" href="css/weavent.css">
+     <link rel="stylesheet" href="css/jinnove.css">
+     <link rel="stylesheet" href="css/pagesinternes.css" />
+     <link rel="stylesheet" href="css/index.css">
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta charset="UTF-8">
+     <title>WEAVENT - Composez votre site avec nos 26 fonctions</title>
+</head>
+
+<body>
+     <header>
+          <nav>
+               <div class="nav-wrapper masonry-container">
+
+                    <div class="valign-wrapper">
+                         <h2> Découvrez le Weavent© interactive</h2>
+                    </div>
+               </div>
+
+          </nav>
+     </header>
+     <main>
+          <article class="category-recherche">
+
+
+
+               <div class="top">
+
+                    <h2>Averti implique votre audience dans votre événement </h2>
+                    <!--
+                    <p>Le Weavent® Interactive est un moyen efficace de donner du pouvoir à votre audience. Le public peut poser une question directement aux intervenants, par SMS ou via la plateforme Weavent®. Les questions s’affichent en temps réel sur
+                   grand écran. Désormais, plus de frustrations de ne pas avoir pu poser sa question.</p> -->
+
+                    <!-- réagissez -->
+                    <div class="bloc">
+
+
+                         <figure class="big">
+                              <img src="images/page-int/reagissez.png" alt="grand écran dans un séminaire affichant réagissez en direct">
+                         </figure>
+
+
+                         <section class="blogArticle">
+                              <div class="chapeau">1 - Proposez à votre audience de participer</div>
+
+                              <p>Un numéro de téléphone apparaît à l’écran. Le public pose sa question par SMS ou depuis la plateforme Weavent. Un modérateur choisit quelles questions faire apparaître.
+                              </p>
+
+
+
+                         </section>
+                    </div>
+
+                    <!-- question -->
+                    <div class="bloc">
+                         <figure class="big">
+                              <img src="images/page-int/reagissez.png" alt="grand écran dans un séminaire affichant réagissez en direct">
+                         </figure>
+
+
+                         <section class="blogArticle">
+                              <div class="chapeau"> 2 - Les questions s’affichent en temps réel</div>
+
+                              <p>Le spectateur devient acteur en interpellant les intervenants. Plusieurs questions peuvent s’afficher à la fois. Tout le monde peut poser sa question, même dans une grande assemblée.
+                              </p>
+
+                         </section>
+                    </div>
+
+                    <!-- sondage -->
+                    <div class="bloc">
+                         <figure class="big">
+                              <img src="images/page-int/sondage.png" alt="grand écran dans un séminaire affichant réagissez en direct">
+                         </figure>
+
+
+                         <section class="blogArticle">
+                              <div class="chapeau"> 3 - Le public donne son avis par sondage </div>
+
+                              <p>Un doute ? Un débat ? Demandez l’avis du public par SMS et depuis Weavent®..
+                              </p>
+
+                         </section>
+                    </div>
+                    <!-- résultats-->
+
+                    <div class="bloc">
+                         <figure class="big">
+                              <img src="images/page-int/resultats.png" alt="grand écran dans un séminaire affichant réagissez en direct">
+                         </figure>
+
+
+                         <section class="blogArticle">
+                              <div class="chapeau"> 4 - Les résultats s’affichent immédiatement</div>
+
+                              <p>Grâce à l’affichage instantané, le public émet son avis directement et le débat avance. .
+                              </p>
+
+                         </section>
+                    </div>
+               </div>
+
+               <h2 class="conclusion">   Weavent® Interactive, impliquez votre audience !</h2>
+
+
+
+          </article>
+     </main>
+     <footer>
+
+     </footer>
+     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+     <script src="js/materialize.min.js"></script>
+     <script src="js/masonry.pkgd.min.js"></script>
+     <script>
+          $(document).ready(function() {
+               $('.masonry').masonry({
+                    // set itemSelector so .grid-sizer is not used in layout
+                    itemSelector: '.masonry-item',
+                    // use element for option
+                    columnWidth: '.masonry-sizer',
+                    percentPosition: true,
+                    gutter: '.gutter-sizer'
+               });
+               $('.sliderSmall').slider({
+                    full_width: true,
+                    height: 248
+               });
+               $('.sliderBig').slider({
+                    full_width: true,
+                    height: 508
+               });
+          });
+     </script>
+
+     <!-- Social media - Share buttons -->
+     <!-- Facebook -->
+     <div id="fb-root"></div>
+     <script>
+          (function(d, s, id) {
+               var js, fjs = d.getElementsByTagName(s)[0];
+               if (d.getElementById(id)) return;
+               js = d.createElement(s);
+               js.id = id;
+               js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+               fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+     </script>
+
+     <!-- Twitter -->
+     <script>
+          ! function(d, s, id) {
+               var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+               if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + '://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+               }
+          }(document, 'script', 'twitter-wjs');
+     </script>
+
+     <!-- Share button LinkedIn - Blogger Config. Ref.: http://goo.gl/tC65tg -->
+     <script src='//platform.linkedin.com/in.js' type='text/javascript'>
+          lang: fr_FR
+     </script>
+
+</body>
+
+</html>

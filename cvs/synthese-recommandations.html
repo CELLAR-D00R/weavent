@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/css-article/elusive-icons.min.css">
+    <link rel="stylesheet" href="css/css-article/materialize.min.css">
+    <link rel="stylesheet" href="css/weavent.css">
+    <link rel="stylesheet" href="css/css-article/article.css">
+    <link rel="stylesheet" href="css/css-article/pagesinternes.css" />
+    <link rel="stylesheet" href="css/css-article/index.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>synthèse des recommandation</title>
+</head>
+
+<body>
+    <header class="top-nav">
+        <div class="text-header">
+            <h1 class="note">Synthèse des recommandations</h1><br><span class="ambition">pour 2017-2020</span>
+        </div>
+        <img class="avocat" src="img/logo.png" alt="">
+
+
+    </header>
+
+    <main>
+        <article>
+
+
+                <!-- <h2 class="titre">synthése de recommandations pour 2017-2020</h2> -->
+                <div class="header">
+                    <div class="colonnes">
+                    <div class="img-header">
+                        <img src="img/carre-couleur-4.jpg" class="carre-couleur" alt="arvato">
+                    </div>
+                <div class="chapeau">Les recommandations de la feuille de route portent sur huit enjeux, déclinés dans le plan d’action et au travers de chacune des feuilles de route des six implantations de Cornet Vincent Ségurel. Les voici, en résumé.
+                </div>
+              </div>
+            </div>
+
+            </aside>
+            </header>
+            <div id="id"></div>
+            <section class="large">
+                <p class="carre">
+                  <ul>
+                    <li>Continuer à s’appuyer sur <a href="valeurs.html">les valeurs</a> propres à Cornet Vincent Ségurel
+                      <li>Renforcer la performance opérationnelle de l’activité par le partage d’informations, la <a href="plan-action.html#organisation">transversalité inter-départements et inter-bureaux</a></li>
+                      <li>Réussir la <a href="plan-action.html#transformation">transformation digitale</a></li>
+                      <li>Poursuivre <a href="ambitions-positionnement.html#clients">le développement de la clientèle</a>, y associer l’ensemble des associés et impliquer en partie les collaborateurs séniors ; cibler, coordonner, croiser les réseaux</li>
+                      <li>Appuyer le développement du cabinet sur <a href="plan-action.html#relais">de nouveaux relais de croissance</a></li>
+                      <li><a href="plan-action.html#organisation">Faire évoluer l’organisation</a> en accroissant la transversalité entre les départements et en professionnalisant les services supports</li>
+                      <li><a href="plan-action.html#solidite">Maintenir les fondamentaux de gestion du cabinet</a></li>
+                      <li><a href="plan-action.html">Renforcer notre position d’acteur national de référence.</a></li>
+                  </ul>
+                </p>
+            </section>
+            <div>
+                <a href="index.html" class="btn lire">Retour à la page d'accueil</a>
+            </div>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+    </footer>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.masonry').masonry({
+                // set itemSelector so .grid-sizer is not used in layout
+                itemSelector: '.masonry-item',
+                // use element for option
+                columnWidth: '.masonry-sizer',
+                percentPosition: true,
+                gutter: '.gutter-sizer'
+            });
+            $('.sliderSmall').slider({
+                full_width: true,
+                height: 248
+            });
+            $('.sliderBig').slider({
+                full_width: true,
+                height: 508
+            });
+        });
+    </script>
+
+    <!-- Social media - Share buttons -->
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Twitter -->
+    <script>
+        ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'twitter-wjs');
+    </script>
+
+    <!-- Share button LinkedIn - Blogger Config. Ref.: http://goo.gl/tC65tg -->
+    <script src='//platform.linkedin.com/in.js' type='text/javascript'>
+        lang: fr_FR
+    </script>
+
+</body>
+
+</html>
