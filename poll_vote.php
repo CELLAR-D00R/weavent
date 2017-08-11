@@ -1,6 +1,6 @@
 <?php
 $vote = $_REQUEST['vote'];
-
+$insertvote = "";
 //get content of textfile
 $filename = "poll_result.txt";
 $content = file($filename);
@@ -25,7 +25,7 @@ foreach ($array as $key => $value) {
 
 
 // The path to the FTP file, including login arguments
-$ftp_path = 'ftp://ftpaverti:2015averti!@averti.fr/weavent/poll_result.txt';
+$ftp_path = '/home/forge/weavent.ml/poll_vote.php';
 
 // Allows overwriting of existing files on the remote FTP server
 $stream_options = array('ftp' => array('overwrite' => true));
