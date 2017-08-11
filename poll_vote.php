@@ -1,6 +1,7 @@
 <?php
 $vote = $_REQUEST['vote'];
 $insertvote = "";
+$total_votes = 0;
 //get content of textfile
 $filename = "poll_result.txt";
 $content = file($filename);
