@@ -25,32 +25,33 @@ foreach ($array as $key => $value) {
 }
 
 
-// The path to the FTP file, including login arguments
-$ftp_path = '/home/forge/weavent.ml/poll_vote.php';
+// // The path to the FTP file, including login arguments
+// $ftp_path = '/home/forge/weavent.ml/poll_vote.php';
 
-// Allows overwriting of existing files on the remote FTP server
-$stream_options = array('ftp' => array('overwrite' => true));
+// // Allows overwriting of existing files on the remote FTP server
+// $stream_options = array('ftp' => array('overwrite' => true));
 
-// Creates a stream context resource with the defined options
-$stream_context = stream_context_create($stream_options);
+// // Creates a stream context resource with the defined options
+// $stream_context = stream_context_create($stream_options);
 
-// Opens the file for writing and truncates it to zero length
-if ($fp = fopen($ftp_path, 'w', 0, $stream_context))
-{
-    // Writes contents to the file
-	fputs($fp, $insertvote);
+// // Opens the file for writing and truncates it to zero length
+// if ($fp = fopen($ftp_path, 'w', 0, $stream_context))
+// {
+//     // Writes contents to the file
+// 	fputs($fp, $insertvote);
 
-    // Closes the file handle
-	fclose($fp);
-}
-else
-{
-	die('Could not open the file. check $ftp path');
-}
+//     // Closes the file handle
+// 	fclose($fp);
+// }
+// else
+// {
+// 	die('Could not open the file. check $ftp path');
+// }
     // uncomment si en local
-    // $fp = fopen($filename,"w");
-    // fputs($fp,$insertvote);
-    // fclose($fp);
+    $fp = fopen($filename,"w");
+    fputs($fp,$insertvote);
+    fclose($fp);
+
 $updated_content = file($filename);
 $updated_array = explode("-", $updated_content[0]);
 ?>
